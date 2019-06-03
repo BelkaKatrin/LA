@@ -7,7 +7,7 @@ language:
 - cpp 
  
 compiler: 
-- gcc 
+- gcc-1234
 addons: 
 apt: 
 sources: 
