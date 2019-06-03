@@ -6,7 +6,7 @@ os:
 language: 
 - cpp 
 compiler: 
-- gcc 
+- gcc-14
 addons: 
 apt: 
 sources: 
