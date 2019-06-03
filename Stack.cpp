@@ -6,7 +6,7 @@ using namespace std;
         int x,count_;
         MyList *First, *Last, *Next, *Prev; //указатели на предыдущий и следующий элементы
     public:
-        MyList(): First(nullptr),Last(nullptr){};
+        MyList(): First(NULL),Last(NULL){};
         void add(int);
         void show();
         void del();
