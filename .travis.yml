@@ -1,21 +1,11 @@
 
+language: сpp 
 os: 
 - linux 
 - osx 
 
-language: 
-- cpp 
- 
 compiler: 
-- gcc-1234
-addons: 
-apt: 
-sources: 
-- ubuntu-toolchain-r-test 
-packages: 
-- gcc-11 
-script: 
-- ln -s /usr/bin/gcc-11 /usr/local/bin/gcc 
-- export CC=/usr/bin/gcc11
+- gcc 
+- clang 
 
 script: make Stack
